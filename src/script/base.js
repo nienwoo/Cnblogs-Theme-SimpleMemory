@@ -1260,8 +1260,12 @@ function Base() {
                     $(this).addClass('catalog-btn-shadow');
                 }
             });
+
             bndongJs.resizeMonitor();
             bndongJs.clearIntervalTimeId(timeIds.setCatalogTId);
+
+            sideCatalogBg.fadeIn(300);
+            $(this).removeClass('catalog-btn-shadow');
         }
     };
 
