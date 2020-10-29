@@ -1,7 +1,7 @@
 /*!
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
+ * UPDATES AND DOCS AT: https://github.com/nienwoo
+ * https://www.cnblogs.com/nienwoo/
+ * @author: nienwoo, dbnuo@foxmail.com
  **/
 if (initCheck()) {
 
@@ -91,7 +91,7 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
+        GhUserName: 'nienwoo',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
         GhVersions: 'v1.3.0',
         CnVersions: "",
@@ -174,12 +174,12 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp"
+            "https://cdn.jsdelivr.net/gh/nienwoo/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp"
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
         essayTopImg: [
-            "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp"
+            "https://cdn.jsdelivr.net/gh/nienwoo/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp"
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
@@ -311,7 +311,7 @@ function getVersionConfig() {
             }
         });
 
-    } else if(window.cnblogsConfig.GhUserName === 'BNDong') {
+    } else if(window.cnblogsConfig.GhUserName === 'nienwoo') {
         window.themeVersion = [
             [
                 "v1.1.6",
