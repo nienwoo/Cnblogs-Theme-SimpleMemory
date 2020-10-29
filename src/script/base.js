@@ -1264,8 +1264,8 @@ function Base() {
             bndongJs.resizeMonitor();
             bndongJs.clearIntervalTimeId(timeIds.setCatalogTId);
 
-            sideCatalogBg.fadeIn(300);
-            $(this).removeClass('catalog-btn-shadow');
+            sideCatalogBg.fadeOut(300);
+            $(this).addClass('catalog-btn-shadow');
         }
     };
 
