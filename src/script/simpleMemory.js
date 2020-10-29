@@ -77,7 +77,7 @@ if (initCheck()) {
         '            <h1 class="page-title" id="homeTopTitle"></h1>' +
         '            <h2 class="page-description" id="hitokoto"></h2>' +
         '            <h3 class="page-author" id="hitokotoAuthor"></h3>' +
-        '            <h1 class="sb-title" id="sbTitle"></h1>' +
+        '          <div align="center" style=" width:50%;display:inline-block;"><h1 class="sb-title" id="sbTitle" align="center"> </h1></div>' +
         '            <p class="article-info" id="articleInfo"></p>' +
         '        </div>' +
         '    </div>' +
