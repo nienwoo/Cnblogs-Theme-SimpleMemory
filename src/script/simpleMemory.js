@@ -72,7 +72,7 @@ if (initCheck()) {
         '</div>' +
         '<div class="main-header">' +
         '    <canvas id="notHomeTopCanvas"></canvas>' +
-        '    <div class="vertical">' +
+        '    <div class="vertical"     style="vertical-align:bottom;">' +
         '        <div class="main-header-content inner">' +
         '            <h1 class="page-title" id="homeTopTitle"></h1>' +
         '            <h2 class="page-description" id="hitokoto"></h2>' +
