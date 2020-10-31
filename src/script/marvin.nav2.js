@@ -101,7 +101,7 @@ $(document).ready(function () {
     nav_li.on('activate.bs.scrollspy', function () {
         let gu = $(this).attr("g"),
             catalog = $('#sideCatalog-catalog');
-            catalog.find('.h2Offset').hide();
+           // catalog.find('.h2Offset').hide();
             catalog.find('.ceg' + gu).show();
     })
 });
