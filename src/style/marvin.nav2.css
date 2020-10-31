@@ -119,7 +119,7 @@
 #sideCatalog li.h2Offset {
     text-indent: -25px;
     padding: 3px 0 3px 45px;
-    display: none
+   /* display: none*/
 }
 
 #sideCatalog li.h3Offset {
