@@ -96,10 +96,8 @@ $(document).ready(function () {
     if (nav_li.length === 0) {
         $sideCatelog.css('visibility', 'hidden');
         $('#' + g).removeClass('sideCatalogBtnDisable');
-    }else
-    {
-
     }
+
     nav_li.on('activate.bs.scrollspy', function () {
         let gu = $(this).attr("g"),
             catalog = $('#sideCatalog-catalog');
